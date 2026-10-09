@@ -6,5 +6,5 @@ export default function InvisibleSoundListener() {
     invisibleElevatorMusic.setupInvisibleAutoplay();
   }, []);
 
-  return null; // Invisible: no UI rendered, sound plays automatically on user interaction
+  return null;
 }
