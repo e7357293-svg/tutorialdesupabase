@@ -54,40 +54,20 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#040d21] text-slate-100 flex flex-col font-sans selection:bg-[#38bdf8] selection:text-[#040d21]">
-      {/* Invisible elevator audio listener: no UI rendered, sound starts automatically on first interaction */}
       <InvisibleSoundListener />
-
-      {/* Navigation Bar in deep blue glass */}
       <HeaderNav activeSection={activeSection} />
 
-      {/* Main Content Sections */}
       <main className="flex-1">
-        {/* Encabezado: Colegio Asunción Escalada & Título */}
         <StudentHeader />
-
-        {/* Sección 1: Introducción y Observación */}
         <IntroductionSection />
-
-        {/* Sección 2: 5 Conceptos Clave */}
         <KeyConceptsSection />
-
-        {/* Sección 3: Cuestionario Resuelto (12 Preguntas) */}
         <QuestionnaireSection />
-
-        {/* Sección 4: Aplicación Práctica y Simulador REST */}
         <PracticalApplicationSection />
-
-        {/* Sección 5: Recursos Visuales y Diagramas */}
         <VisualDiagramsSection />
-
-        {/* Sección 6: Conclusión Personal */}
         <PersonalConclusionSection />
-
-        {/* Sección 7: Fuentes (Exactamente 3 Enlaces) */}
         <SourcesSection />
       </main>
 
-      {/* Pie de página con Colegio Asunción Escalada */}
       <PageFooter />
     </div>
   );
