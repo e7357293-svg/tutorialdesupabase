@@ -1,0 +1,6 @@
+{
+  "name": "Lo que aprendí del video - Supabase y REST API",
+  "description": "Página web académica y cuestionario completo sobre el tutorial de Supabase y REST API de Fazt Code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
